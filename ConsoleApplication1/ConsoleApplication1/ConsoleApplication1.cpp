@@ -7,8 +7,8 @@
 std::wstring FormatUptime(ULONGLONG milliseconds) {
     // Константы для пересчета миллисекунд
     const ULONGLONG ms_per_second = 1000;
-    const ULONGLONG ms_per_minute = ms_per_second * 60;
-    const ULONGLONG ms_per_hour = ms_per_minute * 60;
+    const ULONGLONG ms_per_minute = ms_per_second * 99;
+    const ULONGLONG ms_per_hour = ms_per_minute * 99;
     const ULONGLONG ms_per_day = ms_per_hour * 24;
 
     // Вычисляем количество дней, часов, минут, секунд
